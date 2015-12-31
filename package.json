@@ -1,0 +1,26 @@
+{
+  "name": "reactproject",
+  "version": "1.0.0",
+  "description": "my sample project",
+  "main": "index.html",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [react] ] -o public/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrudhviRaju123/reactProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrudhviRaju123/reactProject/issues"
+  },
+  "homepage": "https://github.com/PrudhviRaju123/reactProject#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "watchify": "^3.6.1"
+  }
+}
